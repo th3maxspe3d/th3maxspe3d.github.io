@@ -1,2 +1,2 @@
-just a basic tic tac toe game for now...
+My Portfolio
 https://th3maxspe3d.github.io/ 

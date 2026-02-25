@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxim Qu - Software Engineering Portfolio</title>
+    <link rel="icon" href="game-three-svgrepo-com.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+          <img src="game-three-svgrepo-com.svg" alt="Logo" width="40" height="40">
+        </a>
+
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse align-items-center" id="navbarContent">
+
+          <ul class="navbar-nav mx-auto gap-3">
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/maxim-qu-3b18a8330/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                href="https://github.com/th3maxspe3d">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                href="https://www.instagram.com/th3maxspe3d/">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                href="https://www.youtube.com/@garageofdusky6480">YouTube</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                href="https://open.spotify.com/artist/4mSwuXzhZCKmyy4YNLoDfG">Spotify</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-3 ms-auto">
+            <a href="#" class="utility-link">Contact us</a>
+            <a href="#" class="utility-link">Log In</a>
+            <a href="#" class="btn btn-signup">Sign Up</a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <main>
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Hi, I'm Maxim Qu</h1>
+                <p class="opacity-75">I am a Software Engineering Student at McGill University.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="MQCV2026v3.pdf" download>Download CV</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Passionate in Software Development</h1>
+                <p>You can check out what I'm working on through my GitHub.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" target="_blank" href="https://github.com/th3maxspe3d">See more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Creative Mindset</h1>
+                <p>Part from coding, I also have a passion for music production. Check out my Spotify to see what I'm up to!</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" target="_blank" href="https://open.spotify.com/artist/4mSwuXzhZCKmyy4YNLoDfG?si=kNLOHzVNRqqp7UPbYpzZow">Spotify</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel end -->
+
+      <div class="container my-5">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="card hero-card" data-bs-toggle="collapse" 
+            data-bs-target="#infoRow1" aria-expanded="false">
+              <img src="youtube-svgrepo-com.svg" class="stat-icon mx-auto" alt="YouTube Icon">
+              <span class="stat-number">385</span>
+              <p class="stat-text">Subscribers on my music YouTube channel</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card hero-card" data-bs-toggle="collapse" 
+            data-bs-target="#infoRow2" aria-expanded="false">
+              <img src="pc-creator-svgrepo-com.svg" class="stat-icon mx-auto" alt="PC Icon">
+              <span class="stat-number">7</span>
+              <p class="stat-text">Personal computers built and customized</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card hero-card" data-bs-toggle="collapse" 
+            data-bs-target="#infoRow3" aria-expanded="false">
+              <img src="software-svgrepo-com.svg" class="stat-icon mx-auto" alt="Software Icon">
+              <span class="stat-number">5</span>
+              <p class="stat-text">Hackathons participated in</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid info-display-row">
+        <div class="collapse multi-collapse" id="infoRow1" data-bs-parent=".info-display-row">
+          <div class="p-5 text-center bg-light border-top">
+            <h3>Music Channel Growth</h3>
+            <p>Check out my video with the most views: <a href="https://www.youtube.com/watch?v=wVQwF4DZito" target="_blank">Despicable Me Whistle Theme BUT IT'S PHONK</a></p>
+          </div>
+        </div>
+
+        <div class="collapse multi-collapse" id="infoRow2" data-bs-parent=".info-display-row">
+          <div class="p-5 text-center bg-light border-top">
+            <h3>Custom PC Building and Modding</h3>
+            <p>Check out my custom PC build: <a href="https://drive.google.com/drive/folders/1DA2wIS1BRngUd5o45feuEF23f7gxW1nb?usp=sharing" target="_blank">My Custom PC Build</a></p>
+          </div>
+        </div>
+
+        <div class="collapse multi-collapse" id="infoRow3" data-bs-parent=".info-display-row">
+          <div class="p-5 text-center bg-light border-top">
+            <h3>Hackathon Win</h3>
+            <p>Check out my hackathon win: <a href="https://devpost.com/software/patiently-waiting" target="_blank">Ws in the chat</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
